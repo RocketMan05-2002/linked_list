@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 203, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    button{
+        width: 100px;
+        padding: 10px 15px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background-color: rgb(255, 115, 0);
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+.renderList{
+    margin-top: 10px;
+}
+.renderItem{
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: azure;
+}
